@@ -1,0 +1,4 @@
+#!/bin/bash
+brightness=$(cat /sys/class/backlight/intel_backlight/brightness)
+brightness=$(($brightness*110/100))
+sudo sh -c "echo $brightness > /sys/class/backlight/intel_backlight/brightness"
