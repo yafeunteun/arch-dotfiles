@@ -1,11 +1,13 @@
 #!/bin/zsh
 
 # Switch to FR keyboard
-setxkbmap fr &
+setxkbmap fr 
 # Replace Caps Lock (most useless key in the world) with ctrl, convenient with Emacs and shell
-setxkbmap -option caps:ctrl_modifier &
+setxkbmap -option caps:ctrl_modifier 
 
 # Screen configuration  (necessary to avoid black screen when running startx after nvidia driver install)
 xrandr --setprovideroutputsource modesetting NVIDIA-0 &
 xrandr --auto &
 
+# Wallpaper
+feh --bg-scale ~/Pictures/wallpapers/retro-synthwave-computer-landscape-palm-trees-shutterstock-1022092345.jpg &
