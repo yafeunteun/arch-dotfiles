@@ -8,4 +8,5 @@
 
 *** Touchpad not working 
 
-Try to load module =elan_i2c= and =elans_i2c=
++Try to load module =elan_i2c= and =elans_i2c=+
+Turns out that I just need to go to sleep mode and go back ... WTF?
