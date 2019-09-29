@@ -1,0 +1,2 @@
+alias ee="emacs -nw"
+alias i3config="emacs -nw $HOME/.config/i3/config"
